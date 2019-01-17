@@ -9,8 +9,8 @@ def sequencer():
     return sequence
 
 
-def get_first_sequence(list):
-    return list[0]["sequence"] if len(list) > 0 else sequence + 1
+def get_first_sequence(pet_list):
+    return pet_list[0]["sequence"] if len(pet_list) > 0 else sequence + 1
 
 
 def add_dog(name):
